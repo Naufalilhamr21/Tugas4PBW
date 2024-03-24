@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/6803a40433.js" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand mb-0 h1" href="home.html">
+                <i class="fa-solid fa-dog" style="color: #214ed4;"></i>
+                <b>Doggy</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary fw-bold" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="margin-top: 30px;">
+        <h2 class="text-primary">Contact Me</h2>
+        <p class="mb-4">If you need help, please contact us via form bellow</p>
+        <form>
+            <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter Email">
+            </div>
+
+            <div class="row row-cols-2">
+                <div class="mb-3 col">
+                    <label for="FirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="FirstName" placeholder="Enter Name">
+                </div>
+
+                <div class="mb-3 col">
+                    <label for="LastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="LastName" placeholder="Enter Name">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="Message" class="form-label">Message</label>
+                <textarea name="Message" id="Message" class="form-control "></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-5">Send</button>
+        </form>
+    </main>
+</body>
+</html>

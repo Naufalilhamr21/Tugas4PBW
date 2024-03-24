@@ -1,0 +1,30 @@
+  * {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* Header */
+  .navbar {
+    padding: 10px;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #666777;
+  }
+
+  .posted {
+    color: grey; 
+    font-size: smaller;
+  }
+
+  .card-body {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .card-title {
+    margin-bottom: 15px;
+  }
